@@ -84,4 +84,4 @@ pass
 #
 # Consider this statistical model: the sepal ratio of Iris-setosa and Iris-virginica is normally distributed, with an unknown mean, and a standard deviation of 1. Your *a priori* estimation of the mean for both distribution is a normal distribution with mean 0.5 and standard deviation 0.1. Use PyMC to sample the posterior distributions after having seen the actual values for Iris-setosa and Iris-virginica.  Plot the results.
 
-
+pass
