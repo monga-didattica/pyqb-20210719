@@ -109,7 +109,7 @@ def append_walk(w1: list[tuple[int, int]], w2: list[tuple[int, int]], dim: int =
     
     """
     
-    ris = w1
+    ris = w1.copy()
     i = len(w1) - 1
     for p in w2[1:]:
         iw = i - len(w1) + 1
