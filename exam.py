@@ -114,10 +114,9 @@ def append_walk(w1: list[tuple[int, int]], w2: list[tuple[int, int]], dim: int =
     for p in w2[1:]:
         iw = i - len(w1) + 1
         s = (p[0] - w2[iw][0], p[1] -  w2[iw][1])
-        ris.append(one_step(w1[i], s))
+        ris.append(one_step(w1[i], s, dim))
         i = i + 1
     return ris
-
 
 
 # ### Exercise 5 (max 2 points)
